@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Image Gallery</title>
+    <script type="text/javascript" src="scripts/showPic.js"></script>
 </head>
 <body>
+<h1>Snapshots</h1>
+<ul>
+    <li><a href="images/coffee.jpg" title="coffee" onclick="showPic(this);return false">coffee</a></li>
+    <li><a href="images/girl.jpg" title="girl" onclick="showPic(this);return false">girl</a></li>
+    <li><a href="images/rose.jpg" title="rose" onclick="showPic(this);return false">rose</a></li>
+    <li><a href="images/travel.jpg" title="travel" onclick="showPic(this);return false">travel</a></li>
+    <img id="placeholder" src="images/placeholder.gif" alt="image gallery">
+</ul>
 
 </body>
 </html>
